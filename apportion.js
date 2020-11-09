@@ -38,5 +38,4 @@ function apportionNaive(pops, repNum = 435) {
 
 let popData = JSON.parse(require('fs').readFileSync('./statePops.json').toString());
 
-// console.log(apportionNaive(popData));
-// console.log(apportion(popData));
+console.log(apportion(popData));
